@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+    padding:0px;
+}
+html{
+    background-color: #ffffff;
+    color: #ec0a4a;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+header{
+    background-image: linear-gradient(rgba(30, 3, 3, 0.5), rgba(0, 0, 0, 0.5)), url('img/Screenshot 2026-01-31 220216.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #f6e5e1;
+}
+.hero-text-box{
+    position: absolute;
+    width:1140px;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn:link, .btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn-full:link, .btn-full:visited{
+    background-color: #1f040b;
+    color: white;
+    border-radius: 100px;
+    margin-right: 15px;
+    box-shadow: 0 10px 20px rgba(31, 4, 11, 0.4);
+    border: 1px solid #d85c3a;
+    margin-top: 10px;
+}
+.btn-ghost:link, .btn-ghost:visited{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+    margin-top: 10px;
+} 
+.btn:hover, .btn:active{
+    background-color: #f0789a;
+}  
+.logo{
+    height: 100px;
+    width:auto;
+    margin-top: 20px;
+    float:left;
+}
+.main-nav{
+    float:right;
+    list-style:none;
+    margin-top:px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 50px;
+
+}
+.main-nav li a:link, .main-nav li a:visited{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: all 0.2s;
+    font-size: 70%;
+    border-bottom: 2px solid transparent;
+}
+.main-nav li a:hover, .main-nav li a:active{
+    color: #ffffff;
+    border-bottom:2px solid #ffffff;
+}
+.span-1-of-4{
+    width: 23.8%;
+}
+section{
+    padding-top: 20px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+h2{
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+}
+.long-copy{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 105%;
+    line-height: 1.7;
+    color: #ed1010;
+    margin-bottom: 60px;
+}
